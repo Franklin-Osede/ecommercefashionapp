@@ -22,7 +22,7 @@ To get started with our platform right away, follow these simple steps:
 
 **Clone the repository:**
 
-```bash
+``bash
 git clone https://github.com/<YOUR_GITHUB_USERNAME>/<YOUR_PROJECT_NAME>.git
 cd <YOUR_PROJECT_NAME>
 
@@ -43,3 +43,5 @@ REACT_APP_FIREBASE_AUTH_DOMAIN=<YOUR_FIREBASE_AUTH_DOMAIN>
 npm start
 
 Your application should now be running on http://localhost:3000. Enjoy exploring and testing the features of our e-commerce platform!
+
+
