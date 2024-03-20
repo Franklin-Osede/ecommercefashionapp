@@ -1,4 +1,4 @@
-# Ultimate E-Commerce Platform
+# E-Commerce Fashion Platform
 ## Navigate. Shop. Checkout.
 
 Welcome to our cutting-edge e-commerce platform, designed to deliver a seamless online shopping experience. From browsing through various categories of items to checking out your selections with ease, our platform offers an all-encompassing solution for both customers and sellers.
