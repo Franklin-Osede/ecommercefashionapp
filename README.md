@@ -20,7 +20,7 @@ Our e-commerce platform is a comprehensive solution that allows users to:
 
 To get started with our platform right away, follow these simple steps:
 
-1. **Clone the repository:**
+**Clone the repository:**
 
 ```bash
 git clone https://github.com/<YOUR_GITHUB_USERNAME>/<YOUR_PROJECT_NAME>.git
