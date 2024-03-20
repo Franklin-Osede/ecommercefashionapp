@@ -34,8 +34,10 @@ npm install
 
 Create a .env file in the root directory and fill in your Stripe and Firebase configuration details.
 
-REACT_APP_STRIPE_KEY=<YOUR_STRIPE_PUBLIC_KEY>
+REACT_APP_STRIPE_KEY=<YOUR_STRIPE_PUBLIC_KEY> 
+
 REACT_APP_FIREBASE_API_KEY=<YOUR_FIREBASE_API_KEY>
+
 REACT_APP_FIREBASE_AUTH_DOMAIN=<YOUR_FIREBASE_AUTH_DOMAIN>
 
 ### Run the application:
