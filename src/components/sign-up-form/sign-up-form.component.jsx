@@ -1,4 +1,5 @@
 import {useState} from 'react'
+import { createAuthUserWithEmailPassword } from '../../utils/firebase/firebase.utils';
 
 
 const defaultFormFields = {
