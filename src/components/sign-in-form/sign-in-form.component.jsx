@@ -7,7 +7,7 @@ import {UserContext} from '../../contexts/user.context'
 import { 
     signInWithGooglePopup, 
     createUserDocumentFromAuth,
-    signInAuthWithEmailAndPassword } from '../../utils/firebase/firebase.utils';
+    signInAuthUserWithEmailAndPassword } from '../../utils/firebase/firebase.utils';
 
 
 
@@ -35,7 +35,7 @@ const SignInForm = ()=> {
     const signInWithGoogle = async () => {
         const {user} = await signInWithGooglePopup();
         await createUserDocumentFromAuth(user);
-        setCurrentUser(user);
+        
     };
 
     const handleSubmit = async (event) => {
@@ -43,7 +43,7 @@ const SignInForm = ()=> {
 
 
     try {
-     const {user} = await signInAuthWithEmailAndPassword(
+     const {user} = await signInAuthUserWithEmailAndPassword(
         email,
         password); 
      setCurrentUser(user);   
