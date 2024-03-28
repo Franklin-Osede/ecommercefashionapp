@@ -37,9 +37,9 @@ const Navigation = () => {
                         </Link>
                          
                     )}  
-                    { isCartOpen && <CartIcon/>} 
+                    <CartIcon/>
                 </div>
-                <CartDropdown/>
+                { isCartOpen &&  <CartDropdown/> }
                 
             </div>
             <Outlet />
