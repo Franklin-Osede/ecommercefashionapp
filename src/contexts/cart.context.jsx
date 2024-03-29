@@ -28,7 +28,7 @@ const removeCartItem = (cartItems, cartItemToRemove)=>{
     }
     //return back cartiems with matchin cart item with reduced quanity
     return cartItems.map((cartItem) => 
-    cartItem === cartItemToRemove.id
+    cartItem.id === cartItemToRemove.id
     ? { ...cartItem, quantity: cartItem.quantity -1}
      : cartItem
     ) 
