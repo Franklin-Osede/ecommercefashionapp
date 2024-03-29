@@ -55,12 +55,12 @@ export const CartProvider = ({children}) => {
     }, [cartItems])
 
     const addItemToCart = (productToAdd) => {
-        setCartItems(addCartItem(cartItems, productToAdd))
-    }
+        setCartItems(addCartItem(cartItems, productToAdd));
+    };
 
     const removeItemToCart = (cartItemToRemove) => {
-        setCartItems(removeCartItem(cartItems, cartItemToRemove))
-    }
+        setCartItems(removeCartItem(cartItems, cartItemToRemove));
+    };
 
     const value = {
         isCartOpen,
@@ -68,7 +68,8 @@ export const CartProvider = ({children}) => {
         addItemToCart,
         removeItemToCart,
         cartItems,
-        cartCount};
+        cartCount
+    };
 
     return <CartContext.Provider value={value}> {children} </CartContext.Provider>
 }
