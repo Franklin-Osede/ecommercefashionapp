@@ -30,7 +30,7 @@ const firebaseConfig = {
     appId: "1:844754914228:web:720f62aef1e862628200e1"
   };
   
-  // Initialize Firebase
+ // eslint-disable-next-line no-unused-vars
   const firebaseApp = initializeApp(firebaseConfig);
 
 const googleProvider = new GoogleAuthProvider();
@@ -71,7 +71,7 @@ export const getCategoriesAndDocuments = async ()=>{
  return acc;
  }, {});
 
-return categoryMap;
+return categoryMap
 }
 
 
