@@ -1,14 +1,14 @@
   import styled from 'styled-components';
 
-  export const BackgroundImage = styled.div `
+  export const BackgroundImage = styled.div`
   width: 100%;
   height: 100%;
   background-size: cover;
   background-position: center;
-  background-image: ${({imageUrl}) =>`url(${imageUrl})`}
-  `
+  background-image: ${({ imageUrl }) =>`url(${imageUrl})`};
+`
   export const Body = styled.div`
-  height: 90px;
+      height: 90px;
       padding: 0 25px;
       display: flex;
       flex-direction: column;
