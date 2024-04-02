@@ -13,7 +13,7 @@ This e-commerce platform is a comprehensive solution that allows users to:
 - Add selections to a shopping cart and see live updates.
 - Increase, decrease, or remove items from the cart and during checkout.
 - Checkout smoothly with integrated Stripe API for secure payments.
-- Sign in using Google for quick authentication, along with traditional sign-up methods.
+- Sign in using Google for quick authentication, along with traditional sign-up form methods.
 - Utilize Firebase for backend storage and authentication management.
 
 ### Quick Start Installation
